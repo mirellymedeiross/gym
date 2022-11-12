@@ -72,6 +72,7 @@ public class Aluno {
     }
 
     // validaçao que nao permite entrada de cpf inválido
+    //Nosso BD é apenas nota 8
     public boolean cpfvalidator(String cpf) {
         if (cpf.length() != 11 ){
             return false;
